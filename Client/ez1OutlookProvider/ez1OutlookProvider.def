@@ -1,0 +1,9 @@
+LIBRARY         ez1OutlookProvider32.dll
+
+EXPORTS    	
+    MSProviderInit      @1
+	ServiceEntry        @2
+    MergeWithMAPISVC    @3
+	RemoveFromMAPISVC	@4
+	
+	

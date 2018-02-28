@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{00b8d964-cff8-43de-aeb5-9ad2534ccf7d}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5b5ad889-17db-4748-b40d-271823017341}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ez1OutlookProvider.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\MergeWithMAPISVC.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\targetver.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\EdkMdb.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ez1OUProvider.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ez1MSProvider.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ez1Logon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ez1MapiUtil.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ez1MsgStore.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DllEntry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MergeWithMAPISVC.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ez1OUProvider_Precompile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ez1MSProvider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ez1Logon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ez1MapiUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ez1MsgStore.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
